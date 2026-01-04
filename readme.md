@@ -20,19 +20,19 @@
 
 ## Mashup/比较
 
-### generate_mashup_exo.py
+### generate-mashup-exo.py
 
 根据 Mashup 的 RPP 工程，按照网格一键摆放好各作品坐标位置，生成可以导入 AviUtl 1.16d 的 exo 文件。导入之后直接在 AviUtl 中渲染即可。
 
-如果 Mashup 的视频数量过多，渲染将极其缓慢，更快的方案请参考 `generate_mashup_obs.py`。
+如果 Mashup 的视频数量过多，渲染将极其缓慢，更快的方案请参考 `generate-mashup-obs.py`。
 
-### generate_mashup_exo_quick.py
+### generate-mashup-exo-quick.py
 
-与 `generate_mashup_exo.py` 功能相同，但会对比较视频进行预处理转码及拉伸分辨率，避免在 AviUtl 中出现大量视频物件使用缩放率导致的渲染缓慢。
+与 `generate-mashup-exo.py` 功能相同，但会对比较视频进行预处理转码及拉伸分辨率，避免在 AviUtl 中出现大量视频物件使用缩放率导致的渲染缓慢。
 
-事实上相较于上一脚本并不能加速多少，更快的方案请参考 `generate_mashup_obs.py`。
+事实上相较于上一脚本并不能加速多少，更快的方案请参考 `generate-mashup-obs.py`。
 
-### generate_mashup_obs.py
+### generate-mashup-obs.py
 
 根据 Mashup 的 RPP 工程，按照网格一键摆放好各作品坐标位置，生成可以导入 OBS Studio 的场景文件。导入后使用 OBS 录制一遍即可。
 
