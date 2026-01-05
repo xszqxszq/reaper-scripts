@@ -22,7 +22,7 @@
 
 ### generate-mashup-exo.py
 
-根据 Mashup 的 RPP 工程，按照网格一键摆放好各作品坐标位置，生成可以导入 AviUtl 1.16d 的 exo 文件。导入之后直接在 AviUtl 中渲染即可。
+根据 Mashup 的 RPP 工程，按照网格一键摆放好各作品坐标位置，生成可以导入 AviUtl 1.17b 的 exo 文件。导入之后直接在 AviUtl 中渲染即可。
 
 如果 Mashup 的视频数量过多，渲染将极其缓慢，更快的方案请参考 `generate-mashup-obs.py`。
 
